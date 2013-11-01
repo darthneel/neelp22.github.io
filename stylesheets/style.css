@@ -1,0 +1,296 @@
+
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: 'Raleway';
+    color: #34495e;
+}
+
+.container {
+    width:12000px;
+    position:absolute;
+    overflow-x: scroll;
+    top:0px;
+    left:0px;
+    bottom:0px;
+}
+
+.base-text {
+  font-family: 'Fenix', serif;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: block;
+}
+
+.projects {
+  width: 700px;
+  margin:75px 30px;
+  background: white;
+}
+
+.projects img {
+  width:400px;
+  height:200px;
+  padding:0px 20px 20px 20px;
+  border-radius: 3px solid #34495e;
+}
+
+.projects h2 {
+  padding-bottom: 20px;
+}
+
+
+/***********NAV BAR****************/
+
+nav {
+    left:37%;
+    width: 100%;
+    height: 35px;
+   position: fixed;
+
+}
+
+#links {
+    width: 100%;
+    position: relative;
+    display: inline;
+    list-style: none;
+}
+
+#links li {
+  font-size: 17px;
+  left: 50%;
+  float: left;
+  padding: 10px;
+}
+
+#links li:hover {
+  color:#2ecc71;
+  cursor: pointer;
+}
+
+header {
+    background: white; 
+    width: 100%;
+    height: 35px;
+    z-index: 100;
+    position: fixed;
+}
+
+
+#trilogo {
+  height: 25px;
+  margin-bottom: 5px;
+}
+/*****************ALL SECTIONS****************/
+.section {
+    margin:0px;
+    bottom:0px;
+    width:20%;
+    float:left;
+    height:100%;
+}
+
+/*****************SECTION 1****************/
+
+#section1 {
+    background: url(../images/mtn.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#name{
+  height: 100%;
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+#name-text {
+    font-weight: 100;
+    color: white;
+    opacity: .8;
+    position: relative;
+    top:40%;
+    left:12%;
+    font-size: 60px;
+}
+
+#wd {
+  height: 100%;
+  width: 50%;
+  float: left;
+}
+
+#wd-text {
+  font-weight: 100;
+  color: white;
+  opacity: .8;
+  position: relative;
+  top: 55%;
+  left: 8%;
+  font-size: 60px;
+}
+
+/*****************SECTION 2****************/
+
+#section2 {
+    background: #ecf0f1;
+}
+
+#about-content {
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 70%;
+  background: white;
+  text-align: block;
+  line-height: 30px;
+}
+
+#tech-content {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 70%;
+  background: white;
+  text-align: block;
+  line-height: 30px;
+}
+
+#tech-content ul {
+  margin-left: 20px;
+}
+
+.s2-copy {
+  padding: 10px 20px;
+}
+
+/*****************SECTION 3****************/
+
+
+#section3 {
+  width: 10%;
+    background: url(../images/tri.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*****************SECTION 4****************/
+
+
+#section4 {
+    width: 30%;
+    background: #ecf0f1;
+}
+
+#byeny-copy {
+    width: 250px;
+    float: left;
+}
+
+#byeny-imgs{
+  float: left;
+}
+
+#libation-copy {
+    width: 250px;
+    float: left;
+}
+
+#libation-imgs{
+  float: left;
+}
+
+#libation {
+  margin-left: 800px; 
+}
+
+#section4 h1 {
+  padding: 5px;
+  width: 150px;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 30px;
+  background: white;
+}
+
+
+
+
+
+
+/*****************SECTION 5****************/
+
+
+#section5 {  
+    background: #2c3e50;
+}
+
+.cover-bar {
+    color: black;
+    background: white;
+    padding-left: 50px;
+}
+
+.cover-bar p {
+    margin-top: 30px;
+
+}
+
+#bar-1 {
+    margin-top: 150px;
+    font-size: 48px;
+    width: 300px;
+    height: 75px;
+}
+
+#bar-2 {
+    margin-top: 15px;
+    font-size: 30px;
+    width: 200px;
+    height: 75px;
+}
+
+#bar-3 {
+    margin-top: 15px;
+    font-size: 20px;
+    width: 150px;
+    height: 75px;
+}
+
+/*.arrow_box {
+  position: relative;
+  background: #88b7d5;
+  border: 4px solid #c2e1f5;
+}
+.arrow_box:after, .arrow_box:before {
+  left: 100%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.arrow_box:after {
+  border-color: rgba(136, 183, 213, 0);
+  border-left-color: #88b7d5;
+  border-width: 15px;
+  top: 50%;
+  margin-top: -15px;
+}
+.arrow_box:before {
+  border-color: rgba(194, 225, 245, 0);
+  border-left-color: #c2e1f5;
+  border-width: 21px;
+  top: 50%;
+  margin-top: -21px;
+}
+*/
